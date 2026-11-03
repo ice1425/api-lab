@@ -20,7 +20,7 @@
 
 ## Part A
 
-- Step A4, status codes when the other user reads, changes and deletes:
+- Step A4, status codes when the other user reads, changes and deletes: read 404 {"error":"not found"}, change 400 {"error":"rating ID <id> not found"}, delete 400 {"error":"rating ID <id> not found"}. Every attempt was refused, and the owner read the rating back unchanged.
 
 ## Part B
 
